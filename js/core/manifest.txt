@@ -1,0 +1,18 @@
+# Core engine files, in load order. Used by tests/run-tests.js (index.html lists the same files).
+js/core/qg.js
+js/core/gates.js
+js/core/statevector.js
+js/core/circuit.js
+js/core/export.js
+js/core/results.js
+js/core/eigen.js
+js/core/densitymatrix.js
+js/core/algorithms.js
+js/core/pauli.js
+js/core/optimizers.js
+js/core/variational.js
+js/core/fermion.js
+js/core/chem.js
+js/core/biology.js
+js/core/drug.js
+js/core/playground.js

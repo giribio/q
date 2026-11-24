@@ -1,0 +1,62 @@
+Section,Resource type,Name,Description,File / activity
+General,Label,Welcome,"Course overview, prerequisites, code of conduct",docs/Student_Guide.md
+Week 01,Page,Week overview,Introduction to quantum computing,lectures/Week_01_Lecture_Script.md
+Week 01,File,Slide outline,Introduction to quantum computing,slides/Week_01_Slide_Outline.md
+Week 01,File,Python practical,Introduction to quantum computing,python_notebooks/QC_W01_Introduction.ipynb
+Week 01,File,Q# practical,Introduction to quantum computing,qsharp_practicals/QS_W01.qs
+Week 01,Quiz,Weekly knowledge check,Introduction to quantum computing,question_banks/Quantum_Academy_Question_Bank.gift
+Week 02,Page,Week overview,Mathematical foundations,lectures/Week_02_Lecture_Script.md
+Week 02,File,Slide outline,Mathematical foundations,slides/Week_02_Slide_Outline.md
+Week 02,File,Python practical,Mathematical foundations,python_notebooks/QC_W02_Linear_Algebra.ipynb
+Week 02,File,Q# practical,Mathematical foundations,qsharp_practicals/QS_W02.qs
+Week 02,Quiz,Weekly knowledge check,Mathematical foundations,question_banks/Quantum_Academy_Question_Bank.gift
+Week 03,Page,Week overview,Quantum states and gates,lectures/Week_03_Lecture_Script.md
+Week 03,File,Slide outline,Quantum states and gates,slides/Week_03_Slide_Outline.md
+Week 03,File,Python practical,Quantum states and gates,python_notebooks/QC_W03_Quantum_Gates.ipynb
+Week 03,File,Q# practical,Quantum states and gates,qsharp_practicals/QS_W03.qs
+Week 03,Quiz,Weekly knowledge check,Quantum states and gates,question_banks/Quantum_Academy_Question_Bank.gift
+Week 04,Page,Week overview,Multi-qubit circuits and entanglement,lectures/Week_04_Lecture_Script.md
+Week 04,File,Slide outline,Multi-qubit circuits and entanglement,slides/Week_04_Slide_Outline.md
+Week 04,File,Python practical,Multi-qubit circuits and entanglement,python_notebooks/QC_W04_Bell_States.ipynb
+Week 04,File,Q# practical,Multi-qubit circuits and entanglement,qsharp_practicals/QS_W04.qs
+Week 04,Quiz,Weekly knowledge check,Multi-qubit circuits and entanglement,question_banks/Quantum_Academy_Question_Bank.gift
+Week 05,Page,Week overview,Quantum search algorithms,lectures/Week_05_Lecture_Script.md
+Week 05,File,Slide outline,Quantum search algorithms,slides/Week_05_Slide_Outline.md
+Week 05,File,Python practical,Quantum search algorithms,python_notebooks/QC_W05_Grover_Search.ipynb
+Week 05,File,Q# practical,Quantum search algorithms,qsharp_practicals/QS_W05.qs
+Week 05,Quiz,Weekly knowledge check,Quantum search algorithms,question_banks/Quantum_Academy_Question_Bank.gift
+Week 06,Page,Week overview,QFT and phase estimation,lectures/Week_06_Lecture_Script.md
+Week 06,File,Slide outline,QFT and phase estimation,slides/Week_06_Slide_Outline.md
+Week 06,File,Python practical,QFT and phase estimation,python_notebooks/QC_W06_QFT_QPE.ipynb
+Week 06,File,Q# practical,QFT and phase estimation,qsharp_practicals/QS_W06.qs
+Week 06,Quiz,Weekly knowledge check,QFT and phase estimation,question_banks/Quantum_Academy_Question_Bank.gift
+Week 07,Page,Week overview,Variational algorithms,lectures/Week_07_Lecture_Script.md
+Week 07,File,Slide outline,Variational algorithms,slides/Week_07_Slide_Outline.md
+Week 07,File,Python practical,Variational algorithms,python_notebooks/QC_W07_VQE_QAOA.ipynb
+Week 07,File,Q# practical,Variational algorithms,qsharp_practicals/QS_W07.qs
+Week 07,Quiz,Weekly knowledge check,Variational algorithms,question_banks/Quantum_Academy_Question_Bank.gift
+Week 08,Page,Week overview,Quantum machine learning,lectures/Week_08_Lecture_Script.md
+Week 08,File,Slide outline,Quantum machine learning,slides/Week_08_Slide_Outline.md
+Week 08,File,Python practical,Quantum machine learning,python_notebooks/QC_W08_Quantum_ML.ipynb
+Week 08,File,Q# practical,Quantum machine learning,qsharp_practicals/QS_W08.qs
+Week 08,Quiz,Weekly knowledge check,Quantum machine learning,question_banks/Quantum_Academy_Question_Bank.gift
+Week 09,Page,Week overview,Quantum chemistry,lectures/Week_09_Lecture_Script.md
+Week 09,File,Slide outline,Quantum chemistry,slides/Week_09_Slide_Outline.md
+Week 09,File,Python practical,Quantum chemistry,python_notebooks/QC_W09_Quantum_Chemistry.ipynb
+Week 09,File,Q# practical,Quantum chemistry,qsharp_practicals/QS_W09.qs
+Week 09,Quiz,Weekly knowledge check,Quantum chemistry,question_banks/Quantum_Academy_Question_Bank.gift
+Week 10,Page,Week overview,Quantum materials,lectures/Week_10_Lecture_Script.md
+Week 10,File,Slide outline,Quantum materials,slides/Week_10_Slide_Outline.md
+Week 10,File,Python practical,Quantum materials,python_notebooks/QC_W10_Quantum_Materials.ipynb
+Week 10,File,Q# practical,Quantum materials,qsharp_practicals/QS_W10.qs
+Week 10,Quiz,Weekly knowledge check,Quantum materials,question_banks/Quantum_Academy_Question_Bank.gift
+Week 11,Page,Week overview,Noise and hardware,lectures/Week_11_Lecture_Script.md
+Week 11,File,Slide outline,Noise and hardware,slides/Week_11_Slide_Outline.md
+Week 11,File,Python practical,Noise and hardware,python_notebooks/QC_W11_Noise_Hardware.ipynb
+Week 11,File,Q# practical,Noise and hardware,qsharp_practicals/QS_W11.qs
+Week 11,Quiz,Weekly knowledge check,Noise and hardware,question_banks/Quantum_Academy_Question_Bank.gift
+Week 12,Page,Week overview,Capstone and scientific communication,lectures/Week_12_Lecture_Script.md
+Week 12,File,Slide outline,Capstone and scientific communication,slides/Week_12_Slide_Outline.md
+Week 12,File,Python practical,Capstone and scientific communication,python_notebooks/QC_W12_Capstone_Template.ipynb
+Week 12,File,Q# practical,Capstone and scientific communication,qsharp_practicals/QS_W12.qs
+Week 12,Quiz,Weekly knowledge check,Capstone and scientific communication,question_banks/Quantum_Academy_Question_Bank.gift

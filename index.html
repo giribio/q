@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>QGiriBio · Quantum computing from qubits to biology</title>
+<meta name="description" content="A standalone, offline quantum computing course and simulator for undergraduates. Runs entirely in your browser.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle cx='20' cy='20' r='16' fill='none' stroke='%231a73e8' stroke-width='3'/%3E%3Cellipse cx='20' cy='20' rx='16' ry='6' fill='none' stroke='%2334a853' stroke-width='2.4'/%3E%3Ccircle cx='29' cy='9' r='4' fill='%23fbbc04'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<noscript><p style="padding:24px;font-family:sans-serif">QGiriBio needs JavaScript to run its simulators. Please enable JavaScript for this page.</p></noscript>
+<div id="boot" style="padding:40px;font-family:sans-serif;color:#5f6368">Loading QGiriBio…</div>
+
+<!-- Core engine (no DOM; also loaded into the Web Worker and by tests/run-tests.js) -->
+<script src="js/core/qg.js"></script>
+<script src="js/core/gates.js"></script>
+<script src="js/core/statevector.js"></script>
+<script src="js/core/circuit.js"></script>
+<script src="js/core/export.js"></script>
+<script src="js/core/results.js"></script>
+<script src="js/core/eigen.js"></script>
+<script src="js/core/densitymatrix.js"></script>
+<script src="js/core/algorithms.js"></script>
+<script src="js/core/pauli.js"></script>
+<script src="js/core/optimizers.js"></script>
+<script src="js/core/variational.js"></script>
+<script src="js/core/fermion.js"></script>
+<script src="js/core/chem.js"></script>
+<script src="js/core/biology.js"></script>
+<script src="js/core/drug.js"></script>
+<script src="js/core/playground.js"></script>
+<script src="js/core/worker.js"></script>
+
+<!-- User interface -->
+<script src="js/ui/dom.js"></script>
+<script src="js/ui/math.js"></script>
+<script src="js/ui/charts.js"></script>
+<script src="js/ui/bloch.js"></script>
+<script src="js/ui/circuitview.js"></script>
+<script src="js/ui/app.js"></script>
+<script src="js/ui/academyfig.js"></script>
+
+<!-- Simulators and lesson widgets -->
+<script src="js/labs/composer.js"></script>
+<script src="js/labs/blochlab.js"></script>
+<script src="js/labs/codelab.js"></script>
+<script src="js/labs/widgets.js"></script>
+<script src="js/labs/algorithms.js"></script>
+<script src="js/labs/noiselab.js"></script>
+<script src="js/labs/widgets3.js"></script>
+<script src="js/labs/variational.js"></script>
+<script src="js/labs/qaoa.js"></script>
+<script src="js/labs/qmlwidget.js"></script>
+<script src="js/labs/molecule.js"></script>
+<script src="js/labs/widgets6.js"></script>
+<script src="js/labs/biolabs.js"></script>
+<script src="js/labs/druglabs.js"></script>
+<script src="js/labs/playground.js"></script>
+<script src="js/labs/academy.js"></script>
+
+<!-- Course content -->
+<script src="content/meta.js"></script>
+<script src="content/track0.js"></script>
+<script src="content/track1.js"></script>
+<script src="content/track2.js"></script>
+<script src="content/track3.js"></script>
+<script src="content/track4.js"></script>
+<script src="content/track5.js"></script>
+<script src="content/track6.js"></script>
+<script src="content/track7.js"></script>
+<script src="content/track8.js"></script>
+<script src="content/track9.js"></script>
+<script src="content/academy.js"></script>
+<script src="academy/academy-files.js"></script>
+
+<script>
+  try { QG.start(); }
+  catch (e) {
+    document.getElementById('boot').innerHTML = '<p><b>QGiriBio could not start:</b> ' + String(e && e.message || e).replace(/</g, '&lt;') + '</p><p>Try a current version of Chrome, Edge, Firefox or Safari.</p>';
+    console.error(e);
+  }
+</script>
+</body>
+</html>
