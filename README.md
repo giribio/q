@@ -1,4 +1,4 @@
-# QGiriBio — quantum computing from qubits to biology
+# QGiriBio - quantum computing from qubits to science
 
 A free, standalone course and simulator for undergraduate beginners. Everything runs in the
 visitor's browser on their own CPU, with no server, no internet, no install and no account.
